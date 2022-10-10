@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #585c68;
+  font-size: 14px;
+  line-height: 22px;
+  color: #555555;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.semi-bold {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.resume {
+  width: 100%;
+  height: auto;
+  display: flex;
+  
+}
+
+.profile{
+  width: 100%;
+  background-color: #e52165;
+}
+
+.profile .resume_profile {
+  width: 30%;
+  color: white;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  left: 33%;
+  top: 10%;
+  text-align: center;
+  /* text-align: left; */
+}
+
+/* .profile .resume_profile .resume_profile_image{
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  overflow: hidden;
+  background-color: black;
+} */
+
+/* .profile .resume_profile .resume_profile_image img{
+  object-fit: contain;
+} */
+
+.resume .left_container {
+  width: 25%;
+  background: #28282B;
+}
+
+
+.resume .left_container .resume-content {
+  padding: 0 25px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.resume .left_container .bold {
+  color: #fff;
+}
+
+.resume .left_container .regular {
+  color: #FFFFFF;
+}
+
+.resume .section {
+  padding: 25px 0;
+  border-bottom: 2px solid #FFB6C1;
+}
+
+.resume .left_container .section:nth-child(3),.resume .left_container .section:last-child,
+.resume .resume_right .section:last-child {
+  border-bottom: 0px;
+}
+
+.resume .left_container ul li {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.resume .left_container ul li .icons {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  color: #e52165;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 16px;
+  position: relative;
+}
+
+.resume .icons i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.resume .left_container ul li .personal-info {
+  color: #FFFFFF;
+}
+
+.resume .left_container .skills-section ul li,.resume .left_container .language-section ul li {
+  display: flex;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resume .left_container .skills-section ul li .skill-name,.resume .left_container .language-section ul li .language-name {
+  width: 25%;
+  margin-top: 15px;
+}
+
+
+.resume .left_container .skills-section ul li .expert-level,.resume .left_container .language-section ul li .language_progress {
+  width: 40%;
+  justify-content: space-between;
+  margin: 0;
+  left: 0%;
+  margin: 0 5px;
+  height: 5px;
+  position: relative;
+}
+
+@media screen and (max-width: 1920px) {
+  .resume .left_container .skills-section ul li .expert-level,.resume .left_container .language-section ul li .language_progress{
+    width: 60%;
+    
+  }  
+}
+
+.resume .left_container .skills-section ul li .expert-level .fa,.resume .left_container .language-section ul li .language_progress .fa{
+  margin: 0 5px;
+}
+
+.resume .left_container .resume_social{
+  position: absolute;
+  text-align: center;
+  width: 22%;
+  
+  
+}
+
+.resume .left_container .resume_social ul li{
+  display: inline-block;
+}
+
+.resume .resume_right {
+  width: 75%;
+  background: #fff;
+  padding: 4%;
+}
+
+.resume .resume_right .bold {
+  color: #e52165;
+}
+
+.resume .resume_right .resume_work ul,
+.resume .resume_right .resume_education ul {
+  padding-left: 40px;
+  overflow: hidden;
+  list-style: none;
+}
+
+.resume .resume_right ul li {
+  position: relative;
+}
+
+.resume .resume_right ul li .date {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.resume .resume_right ul li .info {
+  margin-bottom: 20px;
+}
+
+.resume .resume_right ul li:last-child .info {
+  margin-bottom: 0;
+}
+
+.resume .resume_right .resume_work ul li:before,
+.resume .resume_right .resume_education ul li:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid #e52165;
+  
+}
+
+.resume .resume_right .resume_work ul li:after,
+.resume .resume_right .resume_education ul li:after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -21px;
+  width: 2px;
+  height: 150px;
+  background: #e52165;
+}
+
+
+
+
+
+

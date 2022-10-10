@@ -1,0 +1,399 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    background-color: #fbfcf4;
+}
+
+.message{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    height: 45px;
+    margin: 0;
+    
+}
+
+.message h4{
+    padding: 15px;
+}
+
+.top-menu-bar{
+    background-color: #ffffd3;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1% 5%;
+}
+
+.top-menu-bar .left-sub-menu,.right-sub-menu, .second-menu-bar ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.top-menu-bar .left-sub-menu a{
+    color: black;
+    font-size: 16px;
+}
+
+
+
+
+
+
+/* ------------------ */
+
+.second-menu-bar{
+    background-color: #eeecfe;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.second-menu-bar img{
+    width: 7%;
+    margin: 15px 0;
+}
+
+.second-menu-bar .fa{
+    margin: 0 8px;
+}
+
+/* -------image 1 */
+
+.image1 {
+    
+    height: 700px;
+}
+
+.image1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: static;
+}
+
+.image1 .image-internal-box{
+    /* position: absolute; */
+    padding: 30px;
+    background-color: #fbfcf4;
+    margin-top: 13%;
+    width: 30%;
+    left: 2.5%;
+    position: absolute;
+    text-align: center;
+
+}
+
+.image1 .image-internal-box h2{
+    font-size: 40px;
+}
+
+.image1 .image-internal-box button{
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+}
+
+/* product- section */
+
+.product-container,.question-container{
+    width: 88%;
+    margin: 0 auto;
+    padding: 0 6%;
+    text-align: center;
+}
+
+.product-container h1,.question-container h1,.buy-container h1{
+    font-size: 40px;
+    margin: 50px 0;
+}
+
+.product-container .product-section{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.product-container .product-section .product{
+    /* width: 30%;
+    margin-right: 5%;
+    display: inline;
+    flex-grow: 1;
+    overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+}
+
+.product-container .product-section .product:last-child{
+    margin-right: 0;
+}
+
+.product-container .product-section .product .product-image{
+    
+    width: 90%;
+    
+    display: inline;
+}
+
+.product-container .product-section .product .product-details{
+    flex: 1;
+}
+
+.product-container .product-section .product h3{
+    margin: 15px 22%;
+    
+}
+
+.product-container .product-section .product button{
+    width: 100%;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    border: 1.3px solid black;
+    background-color: transparent;
+
+}
+
+.cartoonish-img{
+    margin: 70px 0 50px;
+}
+
+/* Question section */
+
+.question-container .question-section{
+    width: 100%;
+    display: flex;
+    text-align: left;
+}
+
+.question-container .question-section .left-question-section,.right-question-section{
+    flex-grow: 1;
+    width: 45%;
+}
+
+.question-container .question-section .left-question-section{
+    margin-right: 5%;
+}
+
+/* question section 2 */
+
+.question-container-2{
+    width: 100%;
+    height: 500px;
+}
+
+.question-container-2 .question-section-2{
+    position: absolute;
+    background-color: #e7f7d2;
+    margin: 80px 3%;
+    height: 280px;
+    padding: 30px;
+    text-align: center;
+    width: 45%;
+    left: 45%;
+    
+}
+
+.question-container-2 .question-section-2 h1,p{
+    padding: 5px 0;
+}
+
+.question-container-2 .question-section-2 .question-section-logos{
+    display: flex;
+    width: 90%;
+    margin: 30px 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.question-container-2 .question-section-2 .question-section-logos img:nth-child(3){
+    margin-right: 0;
+}
+
+.question-container-2 .question-section-2 .question-section-logos img{
+    display: inline;
+    width: 30%;
+    margin-right: 5%;
+    
+}
+
+/* buying section */
+
+.buy-container{
+    text-align: center;
+    width: 88%;
+    padding: 0 6%;
+    margin: 0 auto;
+}
+
+.buy-container .buy-section{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+
+.buy-container .buy-section .buy-product-img{
+    width: 50%;
+}
+
+.buy-container .buy-section .buy-product-details{
+    padding: 0 3%;
+    width: 44%;
+    text-align: left;
+}
+
+.buy-container .buy-section .buy-product-details .dropdown{
+    width: 45%;
+    padding: 15px 10px;
+    background-color: transparent;
+    text-align: left;
+    display: block;
+    margin: 10px 0;
+}
+
+.buy-container .buy-section .buy-product-details .dropdown .fa{
+    float: right;
+    position: relative;
+}
+
+.buy-container .buy-section .buy-product-details .cart{
+    margin: 10px 0;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 15px 0;
+}
+
+
+/* sponser section */
+
+.sponser-container{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+.sponser-container h3{
+    padding: 50px 0;
+}
+
+.sponser-container .logos{
+    margin-bottom: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponser-container .logos img{
+    width: 25%;
+}
+
+.sponser-container .logos img:first-child{
+    width: 12%;
+}
+
+/* footer */
+
+.footer{
+    text-align: center;
+    background-color: #eeecfe;
+    padding: 10px 6% 50px;
+    /* width: 88%; */
+    
+}
+
+.footer .sub-footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.footer .sub-footer div{
+    border-right: 1px solid black;
+    width: 20%;
+    padding-left: 25px;
+    flex: 1;
+    /* padding-right: 2.5%; */
+}
+
+.footer .sub-footer div input,button{
+    width: 100%;
+    padding: 15px 10px;
+    margin: 15px 0;
+    border: 1px solid black;
+}
+
+.footer .sub-footer div:last-child{
+    border: none;
+}
+
+.footer .sub-footer div button{
+    background-color: black;
+    color: white;
+}
+
+.footer .sub-footer div:last-child{
+    width: 30%;
+}
+
+.sub-footer ul{
+    padding-left: 0;
+}
+
+.sub-footer li{
+    list-style: none;
+    font-size: 16px;
+    padding: 15px 0;
+    font-weight: 700;
+}
+
+.sub-footer li a{
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.sub-footer p{
+    padding: 0;
+    margin: 5px 0;
+}
+
+.sub-footer .fa{
+    margin-right: 25px;
+}
+.sub-footer h3{
+    margin-bottom: 20px;
+}
+
+.footer p:last-child{
+    text-align: left;
+    font-size: 10px;
+    ;
+}
+
+.footer h4{
+    padding: 0;
+    margin: 5px 0 50px;
+}
+
+
